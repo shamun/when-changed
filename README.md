@@ -37,6 +37,12 @@ when-changed [OPTION] FILE COMMAND...
 when-changed [OPTION] FILE [FILE ...] -c COMMAND
 ```
 
+### Example
+
+```
+when-changed -r /home/sftp/user/file1.csv /var/tmp/script1.sh
+```
+
 FILE can be a directory. Use %f to pass the filename to the command.
 
 **Options:**
